@@ -40,8 +40,9 @@ amfiNavs.on('dataready', callback);
 - amfi.status : String, 'Acquiring Data' or 'Data Ready'
 - amfi.updateDate : Date, When last time data was updated
 - amfi.data : Object, NAV Data 
-	<pre>{funds:[fund1, fund2...], fundManagers: [fundManager1, fundManager2..], 
-fundTypes: [fundType1, fundType2...], updateDate : Date}
+<pre>
+	{funds:[fund1, fund2...], fundManagers: [fundManager1, fundManager2..], 
+	fundTypes: [fundType1, fundType2...], updateDate : Date}
 </pre>
 - fundManager : String, name of the fund manager
 - fundType : String, fund type
