@@ -1,4 +1,4 @@
-AMFINavs = require('./amfi');
+AMFINavs = require('amfinav');
 
 var cb = function (data) {
 	console.log(data.funds.length);
