@@ -3,6 +3,8 @@ node-amfinav
 
 #### Fetches NAVs of Indian mutual funds published by AMFI and reformats data into JSON
 
+DISCLAIMER/WARNING : Developer has nothing to do with [AMFI](http://www.amfiindia.com/ "Association of Mutual Funds in India") . If AMFI changes the way data is published or stops publishing the data, this code will not work as expected.
+
 Data can be read as a JSON Array
 
 Usage
