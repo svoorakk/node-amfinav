@@ -7,6 +7,12 @@ DISCLAIMER/WARNING : Developer has nothing to do with [AMFI](http://www.amfiindi
 
 Data can be read as a JSON Array
 
+Install
+
+<pre>
+npm install amfinav
+</pre>
+
 Usage
 <pre>
 amfi = require('amfi');
