@@ -28,11 +28,14 @@ using with a callback with refresh every 3600 seconds
 <pre>
 var amfiNavs = new amfi({callback: callback, refreshInterval : 3600});
 </pre>
-
-using with a callback with no refresh
+using with a callback and no refresh
+<pre>
+var amfiNavs = new amfi({callback: callback});
+</pre>
+using with a event listener and no refresh
 <pre>
 var amfiNavs = new amfi();
-amfiNavs.on('dataready', callback);
+amfiNavs.on('dataready', listener);
 </pre>
 
 ##### Options
