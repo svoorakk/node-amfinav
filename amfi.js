@@ -1,7 +1,7 @@
 var http = require('http');
 var events = require('events');
 
-var amfiHost = "www.amfiindia.com";
+var amfiHost = "portal.amfiindia.com";
 var amfiPath = "/spages/NAV0.txt";
 
 var lineBuffer = "";
