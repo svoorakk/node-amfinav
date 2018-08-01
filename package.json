@@ -1,7 +1,7 @@
 {
   "name": "amfinav",
   "description": "AMFI NAV Data for Mutual Funds in India.",
-  "tags": [
+  "keywords": [
     "NAV",
     "Mutual Fund",
     "AMFI",
@@ -10,7 +10,7 @@
     "Finance",
     "API"
   ],
-  "version": "0.0.4",
+  "version": "0.0.6",
   "author": "Sridhar Voorakkara<sridhar1803@hotmail.com>",
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "bugs": {
     "url": "http://github.com/svoorakk/node-amfinav/issues"
   },
+  "license" : "SEE LICENSE IN LICENSE.txt", 
   "engines": [
     "node : *"
   ],
